@@ -208,7 +208,7 @@ void loop()
 
   if (oldhumidity != humidity) {
     oldhumidity = humidity;
-    send(msgTemp.set(humidity, 1));
+    send(msgHum.set(humidity, 1));
     sleep(1); // Wait for 100uF capacitor to charge
   }
 
