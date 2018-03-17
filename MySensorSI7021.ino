@@ -111,8 +111,9 @@ pro.menu.cpu.1MHZatmega328.build.f_cpu=1000000L
   :0400000300007E007B
   :00000001FF
 
-  pour programmer le bootloader, telecharger le sketch ArduinoISP sur un Uno, et programmer le mini pro
-  connecté au Uno en SPI en choisissant le programmateur Arduino as ISP, alimenter en 5v le pro mini
+  pour programmer le bootloader, telecharger le sketch ArduinoISP sur un Uno. Puis connecter le mini pro sur le SPI du UNO.
+  Choisir le programmateur Arduino as ISP, alimenter en 5v le pro mini.
+  Choisir comme cible Arduino Pro Mini 1MHz et faire burn bootloader.
 
 */
 
